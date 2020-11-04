@@ -125,7 +125,6 @@ const PaytrailScreen = () => {
       />
     )
   }
-  console.log('renderedHtml', renderToString(<PaytrialForm />).toString())
    return (
        <>
         {
