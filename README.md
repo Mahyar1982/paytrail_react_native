@@ -6,7 +6,7 @@ The article can be found in the Medium website.
 #### Setup the project
 
 - Clone the project.
-- Install the package:  
+- Install the packages:  
 $ npm install
 - Run the app on Android device or simulator.  
 $ npx react-native run-android
