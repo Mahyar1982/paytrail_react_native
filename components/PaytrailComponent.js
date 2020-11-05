@@ -4,7 +4,7 @@ import { Text, Button, View } from 'react-native'
 import { WebView } from 'react-native-webview';
 import { renderToString } from 'react-dom/server';
 
-const PaytrailScreen = () => {
+const PaytrailComponent = () => {
     const [debug, toggleDebug] = useState(false)
     const [isWebview, setIsWebView] = useState(true);
     const [paymentStatusText, setPaymentStatusText] = useState('');
@@ -152,4 +152,4 @@ const PaytrailScreen = () => {
    );
 };
 
-export default PaytrailScreen;
+export default PaytrailComponent;

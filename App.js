@@ -4,14 +4,14 @@ import {
   StatusBar,
 } from 'react-native';
 
-import PaytrailScreen from './pages/PaytrailScreen';
+import PaytrailComponent from './components/PaytrailComponent';
 
 const App = () => {
   return (
     <>
       <StatusBar />
       <SafeAreaView style={{flex: 1, marginTop: 5, marginLeft: 5, marginRight: 5}}>
-        <PaytrailScreen />
+        <PaytrailComponent />
       </SafeAreaView>
     </>
   );
